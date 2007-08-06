@@ -1,6 +1,6 @@
 %define		_proj_name	gwfl-nagios-plugins
 Summary:	GWFL snmp checks for nagios
-Summary(pl.UTF-8):	-
+Summary(pl.UTF-8):	GWFL snmp checks for nagios
 Name:		nagios-plugin-gwfl-snmp
 Version:	2.1
 Release:	1
