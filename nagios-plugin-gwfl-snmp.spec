@@ -14,10 +14,9 @@ URL:		http://gwfl.daimonic.org/index.pl?p=nagiosplugs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GWFL snmp checks for nagios check_snmp_mem_free check_snmp_mem_used
-check_snmp_cpu check_snmp_disk check_snmp_fans check_snmp_load
-check_snmp_phydrv check_snmp_psus check_snmp_swap check_snmp_temps
-check_snmp_totalprocs
+Nagios plugins to check HP ProLiant systems, Netscreen firewalls,
+Cisco switches, Cisco Content Switches, RFC 1628 UPS systems, eSensors
+HVAC EM01 environmental monitor, and router interfaces over SNMP.
 
 %prep
 %setup -q -n %{_proj_name}-%{version}
