@@ -1,0 +1,11 @@
+--- gwfl-nagios-plugins-2.1/common/common.c.fix	2007-08-01 10:41:03.164990188 +0200
++++ gwfl-nagios-plugins-2.1/common/common.c	2007-08-01 10:41:41.745671959 +0200
+@@ -41,7 +41,7 @@ struct treeint *walkoid(char *host, char
+ 	
+ 	init_snmp("SNMP");
+ 	snmp_sess_init(&session);
+-	session.version = SNMP_VERSION_1;
++	session.version = SNMP_VERSION_2c;
+ 	session.community = community;
+ 	session.community_len = strlen((char *) session.community);
+ 	session.peername = host;
